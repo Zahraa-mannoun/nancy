@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+     <head>
+	     <title> MENU </title>
+		 <style>
+		    html,body {
+                 margin:0px;
+			     padding:0px;
+				 padding-top:0px;
+                 }
+		     .body{
+                 background-image:url('./backgroundmenu.jpg');
+		         background-size: cover;
+		         background-repeat: no-repeat;
+		         height:100%;
+		         }	
+		     h1{
+			     color:red;
+				 text-align: center;
+				 font-style:Italic;
+				 margin:0px;
+				 padding: 0px;
+				 padding-top: 10px;
+				 ;
+				 }
+			 .container{
+			     display: flex;
+				 flex-direction: column;
+				 align-items: center;
+				 justify-content: center;
+				 height:70vh;
+				 flex-wrap: wrap;
+				 }
+				 
+             .box{
+                 width:250px;
+                 height:340px;	
+                 background-color:white;
+				 padding:10px;
+				 margin:80px;
+				 border: 15px solid #d50c0c;
+				 cursor:pointer;
+				 transition:  width 1s, height 1s;
+                 } 
+				 
+		     .box:hover {
+                   width: 300px;
+                   height: 350px;
+                  }	 
+			 .image{
+			      transition:  width 1s, height 1s;
+			     }
+			 .image:hover{
+			  width: 300px;
+                   height: 200px;
+                  }
+			 
+			 .p1{
+			    color:red;
+				font-weight:bold;
+				text-align:center;
+				font-style:Italic;
+				
+				}
+			 .p2{
+			  color:#d50c0c;
+			  }
+			 .p3{
+			 font-style:Italic;
+			 font-weight:bold;
+			 font-size:30px;
+			 color:white;
+			 }
+		 .bac{
+		     background-color:#d50c0c;
+			 }
+		 li{
+		 color:white;
+		 font-size:20px;
+		 }
+		 .buttonhome{
+  height: 40px;
+  width:150px;
+  background-color:red;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 25px; 
+  cursor: pointer;
+ 
+ 
+
+ 
+
+  
+
+
+
+}
+.buttonhome a{
+  text-decoration: none;
+  font-weight: bolder;
+
+  color: black;
+  
+
+}
+			
+		 </style>    
+	 </head>
+	 
+	 <body>
+		
+	     <div class="body">
+			<div class="buttonhome">
+				<a  href="pizzanancy.html" > Return to Home </a> 
+				</div>
+		         <h1> MENU </h1>
+				 <div class="container">
+		         <div class="box">
+			         <p class="p1"> Classic cheese pizza</p>
+			         <img class="image" src="./cheese.jpeg" width="250" height="150" />
+			         <p align="center"> Mozzarella cheese<br>
+			         Pizza sauce<br>
+			         </p>
+			         <p align="center" class="p2"> price:10$ </p>
+                 </div>
+				 
+                 <div class="box">
+			         <p class="p1"> Hawaiian Pizza </p>
+			         <img class="image" src="./hawaiian.jpeg" width="250" height="150" />
+			         <p align="center"> cheese <br>
+			         pineapple<br>
+			         Pizza sauce<br>
+			         </p>
+			         <p align="center" class="p2"> price:15$ </p>
+		         </div> 
+			    				
+		         <div class="box">
+			         <p class="p1"> Pepperoni pizza </p>
+			         <img class="image" src="./peporoni.jpeg" width="250" height="150" />
+			         <p align="center"> Mozzarella cheese <br>
+                     Pepperoni slices <br>
+			         </p>
+			         <p align="center" class="p2"> price:15$ </p>	 
+			     </div>
+			     </div>
+				 
+				 <div class="container">
+		         <div class="box">
+			         <p class="p1"> BBQ Chicken Pizza </p>
+			         <img class="image" src="./bbq.jpeg" width="250" height="150" />
+					 <p align="center">  chicken breast <br>
+                     chopped red onion<br>
+			         spicy barbeque sauce<br>
+			         </p>
+			         <p align="center" class="p2"> price:18$ </p>	 
+			     </div>
+
+                 <div class="box">
+			         <p class="p1">Veggie Pizza</p>
+			         <img class="image" src="./vegi.jpeg" width="250" height="150" />
+			         <p align="center"> Grape tomatoes <br>
+                     Green bell pepper<br>
+                     Mushrooms <br>
+                     cup Red onion <br>
+			         <p align="center" class="p2"> price:18$ </p>	 
+			         </p>
+			     </div>
+			 
+                 <div class="box">
+			         <p class="p1">Margherita Pizza</p>
+			         <img class="image" src="./margarita.jpeg" width="250" height="150"/>
+			         <p align="center"> Fresh Basil <br>
+                     Fresh Mozzarella Balls<br>
+                     Marzano Tomatoes <br>
+			         <p align="center" class="p2"> price:10$ </p>	 
+			         </p>
+			     </div>
+				 </div>
+			 
+		         <div class="box">
+			         <p class="p1">Meat Pizza</p>
+			         <img class="image" src="./meatpizza.jpeg" width="250" height="150" />
+			         <p align="center"> Fresh Meat<br>
+                     Pepperoni slices <br>
+			         oregano <br>
+			         <p align="center" class="p2"> price:10$ </p>	 
+			         </p>
+			     </div>	
+				 
+				 <fieldset class="bac">
+				     <legend class="p3"> Drinks </legend>
+					     <ul type="square">
+						     <li> Water</li>
+							 <li>Pepsi</li>
+							 <li>Fanta</li>
+							 <li> Mirinda</li>
+							 <li> 7UP </li>
+                         </ul>
+				 </fieldset>		 	 
+		</div>
+	 </body>
+</html>

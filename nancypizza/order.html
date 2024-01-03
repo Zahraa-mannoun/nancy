@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+     <head>
+         <title> ORDER </title>
+		<style>
+		.col{
+		color:red;
+		font-family:montserrat;
+		font-weight:bold;
+		font-style:italic;
+		}
+		.buttonhome{
+  height: 40px;
+  width:150px;
+  background-color:red;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 25px; 
+  cursor: pointer;
+  margin: 20px;
+ 
+
+ 
+
+  
+
+
+
+}
+.buttonhome a{
+  text-decoration: none;
+  font-weight: bolder;
+
+  color: black;
+  
+
+}
+.submit{
+  background-color: #e60606;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.reset{
+  background-color: #e60606;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+		</style>
+     </head>
+  <body>
+     <img src="https://thumbs.dreamstime.com/z/woman-scooter-delivery-pizza-to-order-modern-flat-vector-illustration-young-delivers-167737527.jpg" width="50%" height="30%" align="right"/> 
+	 
+	 <fieldset>
+	      <legend class="col"> customer information</legend>
+	          <label for="cname" > Customer name : </label>
+			  <input type="text" id="cname" name="cname">
+			  <br>
+			  <br>
+			  <label for="tel" > Telephone : </label>
+			  <input type="text" id="tel" name="tel">
+			  <br>
+			  <br>
+			  <label for="email" > Email: </label>
+			  <input type="email" id="email" name="email">
+			   <br>
+			   <br>
+			  <label for="add" > Address: </label>
+			  <input type="text" id="add" name="add">
+			  <br>
+			  <br>
+	 </fieldset>
+	 <br>
+	 <br>
+	 <fieldset>
+	     <legend class="col"> Pizza Type </legend>
+		 <input type="checkbox" name="pizza" value="cheese"> Cheese pizza <input type="number" min="0" max="10"><br>
+		 <input type="checkbox" name="pizza" value="Hawaiian">Hawaiian Pizza <input type="number" min="0" max="10"><br>
+		 <input type="checkbox" name="pizza" value="Veggie">Veggie Pizza <input type="number" min="0" max="10"><br>
+		 <input type="checkbox" name="pizza" value="Margherita"> Margherita Pizzaa <input type="number" min="0" max="10"><br>
+		 <input type="checkbox" name="pizza" value="BBQ Chicken">BBQ Chicken Pizza <input type="number" min="0" max="10"><br>
+		 <input type="checkbox" name="pizza" value="Meat">Meat pizza <input type="number" min="0" max="10"><br>
+		 <input type="checkbox" name="pizza" value="pepperoni">pepperoni pizza <input type="number" min="0" max="10"><br>
+	 </fieldset> 
+	 <br>
+	 <br>
+	 <fieldset>
+	     <legend class="col"> Pizza Size  </legend>
+		 <input type="radio" name="size" value="small"> Small <br>
+		 <input type="radio" name="size" value="medium">Medium<br>
+		 <input type="radio" name="size" value="large">Large <br>
+	 </fieldset>
+	 <br>
+	 <br>
+	 <fieldset>
+	     <legend class="col"> Pizza Toppings </legend>
+		 <input type="checkbox" name="toppings" value="corn"> Corn <br>
+		 <input type="checkbox" name="toppings" value="cheese">Extra Cheese<br>
+		 <input type="checkbox" name="toppings" value="onion">Onion<br>
+		 <input type="checkbox" name="toppings" value="Mushroom"> Mushroom<br>
+	 </fieldset> 	 
+	 <br>
+	 <br>
+	 <p class="col"> Preffered delivery time <input type="time"> </p> 
+	 <br>
+	 <p class="col"> <em> Delivery instructions :</em> <p>
+	 <textarea name="instruction" rows="7" cols="35"> </textarea> 
+	 <br>
+	 <br/>
+	 <input type="submit" value="submit order" class="submit">
+	 <p ><input type="reset" value="Reset" class="reset"/></p>
+	 <div class="buttonhome">
+		<a  href="pizzanancy.html" > Return to Home </a> 
+		</div>
+	</body>
+ </html>
